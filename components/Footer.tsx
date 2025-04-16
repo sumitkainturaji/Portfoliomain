@@ -3,7 +3,7 @@ import Magicbutton from './Magicbutton'
 import { GiSupersonicArrow } from 'react-icons/gi'
 import { socialMedia } from '@/data'
 
-export const Footer = () => {
+const Footer = () => {
   return (
     <footer className="w-full pt-20 pb-10 " id="contact">
       <div className="w-full absolute left-0 -bottom-72 min-h-96">
@@ -39,8 +39,8 @@ export const Footer = () => {
             >
               <a href={profile.link}>
                 <img
-                  src={profile.img}
                   alt={profile.id}
+                  src={profile.img}
                   width={20}
                   height={20}
                 />
@@ -52,3 +52,5 @@ export const Footer = () => {
     </footer>
   )
 }
+
+export default Footer;
