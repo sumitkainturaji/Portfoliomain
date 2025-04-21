@@ -10,7 +10,7 @@ const Projects = () => {
     <div className="py-20" id="projects">
       <h1 className="md:text-4xl flex justify-center items-center gap-2 font-bold sm:text-2xl lg:text-5xl">
         A small selection of{'  '}
-        <span className="text-purple-400">recent projects</span>
+        <span className="text-[#8333ea]">recent projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
@@ -26,11 +26,7 @@ const Projects = () => {
                 >
                   <img src="/bg.png" alt="bgimg" />
                 </div>
-                <img
-                  src={item.img}
-                  alt="cover"
-                  className="z-10 absolute bottom-0"
-                />
+                <img src={item.img} alt="cover" className="z-10 absolute  " />
               </div>
 
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">

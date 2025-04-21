@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: 'I prioritize client collaboration, fostering open communication ',
+    title: 'Collaboration First, Building Together with Clear Communication ',
     description: '',
     className: 'lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]',
     imgClassName: 'w-full h-full',
@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: 'Time Zones Are No Barrier — I Adapt to Your Schedule',
     description: '',
     className: 'lg:col-span-2 md:col-span-3 md:row-span-2',
     imgClassName: '',
@@ -28,8 +28,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: 'My tech stack',
-    description: 'I constantly try to improve',
+    title: 'My Tech Stack & Tools',
+    description: 'Reflects growth mindset and dedication to learning.',
     className: 'lg:col-span-2 md:col-span-3 md:row-span-2',
     imgClassName: '',
     titleClassName: 'justify-center',
@@ -49,8 +49,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: 'Currently building a JS Animation library',
-    description: 'The Inside Scoop',
+    title: ' Uncover insights, innovation, and impactful creations. ',
+    description: 'More visionary and collaborative.',
     className: 'md:col-span-3 md:row-span-2',
     imgClassName: 'absolute right-0 bottom-0 md:w-96 w-60',
     titleClassName: 'justify-center md:justify-start lg:justify-center',
@@ -74,7 +74,7 @@ export const projects = [
     id: 1,
     title: 'Jwellery Website ',
     des: 'Experience the sparkle of elegance with our stunning jewelry website, built using the MERN stack and styled beautifully with Tailwind CSS.',
-    img: '/p1.png',
+    img: '/P1.png',
     iconLists: [
       '/re.svg',
       '/tail.svg',
@@ -87,9 +87,25 @@ export const projects = [
   },
   {
     id: 2,
+    title: 'Dabhand Solution',
+    des: 'A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.',
+    img: '/P2.png',
+    iconLists: [
+      '/re.svg',
+      '/tail.svg',
+      '/javascript.svg',
+      '/node.svg',
+      '/express.svg',
+      '/mon.svg',
+      '/razorpay.svg',
+    ],
+    link: 'https://github.com/adrianhajdin/ai_saas_app',
+  },
+  {
+    id: 3,
     title: 'Ecommerece Clothing Store',
     des: 'Step into style with our MERN-based ecommerce clothing store, designed with Tailwind CSS for a sleek, responsive experience.',
-    img: '/p2.svg',
+    img: '/P3.png',
     iconLists: [
       '/re.svg',
       '/tail.svg',
@@ -100,22 +116,14 @@ export const projects = [
     ],
     link: 'https://mernstackproject-frontend-jlu9.onrender.com/',
   },
-  {
-    id: 3,
-    title: 'AI Image SaaS - Canva Application',
-    des: 'A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.',
-    img: '/p3.svg',
-    iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/c.svg'],
-    link: 'https://github.com/adrianhajdin/ai_saas_app',
-  },
-  {
-    id: 4,
-    title: 'Animated Apple Iphone 3D Website',
-    des: 'Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..',
-    img: '/p4.svg',
-    iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/three.svg', '/gsap.svg'],
-    link: 'https://github.com/adrianhajdin/iphone',
-  },
+  // {
+  //   id: 4,
+  //   title: 'Animated Apple Iphone 3D Website',
+  //   des: 'Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..',
+  //   img: '/p4.svg',
+  //   iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/three.svg', '/gsap.svg'],
+  //   link: 'https://github.com/adrianhajdin/iphone',
+  // },
 ]
 
 export const companies = [
@@ -161,25 +169,25 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: 'Mobile App Dev - JSM Tech',
-    desc: 'Designed and developed mobile app for both iOS & Android platforms using React Native.',
+    title: 'Freelance Web Dev Project',
+    desc: 'Led the dev of a web app for a client, from initial concept to deployment on app stores.',
     className: 'md:col-span-2',
     thumbnail: '/exp2.svg',
   },
-  {
-    id: 3,
-    title: 'Freelance App Dev Project',
-    desc: 'Led the dev of a mobile app for a client, from initial concept to deployment on app stores.',
-    className: 'md:col-span-2', // change to md:col-span-2
-    thumbnail: '/exp3.svg',
-  },
-  {
-    id: 4,
-    title: 'Lead Frontend Developer',
-    desc: 'Developed and maintained user-facing features using modern frontend technologies.',
-    className: 'md:col-span-2',
-    thumbnail: '/exp4.svg',
-  },
+  // {
+  //   id: 3,
+  //   title: 'Mobile App Dev - JSM Tech',
+  //   desc: 'Designed and developed mobile app for both iOS & Android platforms using React Native.',
+  //   className: 'md:col-span-2',
+  //   thumbnail: '/exp3.svg',
+  // },
+  // {
+  //   id: 4,
+  //   title: 'Lead Frontend Developer',
+  //   desc: 'Developed and maintained user-facing features using modern frontend technologies.',
+  //   className: 'md:col-span-2',
+  //   thumbnail: '/exp4.svg',
+  // },
 ]
 
 export const socialMedia = [
