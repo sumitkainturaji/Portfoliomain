@@ -74,7 +74,7 @@ export const projects = [
     id: 1,
     title: 'Jwellery Website ',
     des: 'Experience the sparkle of elegance with our stunning jewelry website, built using the MERN stack and styled beautifully with Tailwind CSS.',
-    img: '/P1.png',
+    img: '/P1.PNG',
     iconLists: [
       '/re.svg',
       '/tail.svg',
@@ -89,7 +89,7 @@ export const projects = [
     id: 2,
     title: 'Dabhand Solution',
     des: 'A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.',
-    img: '/P2.png',
+    img: '/P2.PNG',
     iconLists: [
       '/re.svg',
       '/tail.svg',
@@ -99,13 +99,13 @@ export const projects = [
       '/mon.svg',
       '/razorpay.svg',
     ],
-    link: 'https://github.com/adrianhajdin/ai_saas_app',
+    link: 'https://dabhand.onrender.com/',
   },
   {
     id: 3,
     title: 'Ecommerece Clothing Store',
     des: 'Step into style with our MERN-based ecommerce clothing store, designed with Tailwind CSS for a sleek, responsive experience.',
-    img: '/P3.png',
+    img: '/P3.PNG',
     iconLists: [
       '/re.svg',
       '/tail.svg',
@@ -125,6 +125,7 @@ export const projects = [
   //   link: 'https://github.com/adrianhajdin/iphone',
   // },
 ]
+
 
 export const companies = [
   {
