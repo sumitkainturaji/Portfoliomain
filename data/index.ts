@@ -74,7 +74,7 @@ export const projects = [
     id: 1,
     title: 'Jwellery Website ',
     des: 'Experience the sparkle of elegance with our stunning jewelry website, built using the MERN stack and styled beautifully with Tailwind CSS.',
-    img: '/P1.PNG',
+    img: '/p1.png',
     iconLists: [
       '/re.svg',
       '/tail.svg',
