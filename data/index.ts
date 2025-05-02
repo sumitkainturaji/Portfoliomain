@@ -74,7 +74,7 @@ export const projects = [
     id: 1,
     title: 'Jwellery Website ',
     des: 'Experience the sparkle of elegance with our stunning jewelry website, built using the MERN stack and styled beautifully with Tailwind CSS.',
-    img: '/P1.PNG',
+    img: '/P1.png',
     iconLists: [
       '/re.svg',
       '/tail.svg',
@@ -89,7 +89,7 @@ export const projects = [
     id: 2,
     title: 'Dabhand Solution',
     des: 'A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.',
-    img: '/P2.PNG',
+    img: '/P2.png',
     iconLists: [
       '/re.svg',
       '/tail.svg',
@@ -105,7 +105,7 @@ export const projects = [
     id: 3,
     title: 'Ecommerece Clothing Store',
     des: 'Step into style with our MERN-based ecommerce clothing store, designed with Tailwind CSS for a sleek, responsive experience.',
-    img: '/P3.PNG',
+    img: '/P3.png',
     iconLists: [
       '/re.svg',
       '/tail.svg',
