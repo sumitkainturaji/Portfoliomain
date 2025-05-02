@@ -1,35 +1,40 @@
-'use client';
-import React, { useState } from 'react';
-import { motion, AnimatePresence, useScroll, useMotionValueEvent } from 'motion/react';
-import Link from 'next/link';
-import { cn } from '@/lib/utils';
+'use client'
+import React, { useState } from 'react'
+import {
+  motion,
+  AnimatePresence,
+  useScroll,
+  useMotionValueEvent,
+} from 'motion/react'
+import Link from 'next/link'
+import { cn } from '@/lib/utils'
 
 interface NavItem {
-  name: string;
-  link: string;
-  icon?: React.ReactNode;
+  name: string
+  link: string
+  icon?: React.ReactNode
 }
 
 const FloatingNav = ({
   navItems,
   className,
 }: {
-  navItems: NavItem[];
-  className?: string;
+  navItems: NavItem[]
+  className?: string
 }) => {
-  const { scrollYProgress } = useScroll();
-  const [visible, setVisible] = useState(true);
+  const { scrollYProgress } = useScroll()
+  const [visible, setVisible] = useState(true)
 
   useMotionValueEvent(scrollYProgress, 'change', (current) => {
     if (typeof current === 'number') {
-      const direction = current - scrollYProgress.getPrevious()!;
+      const direction = current - scrollYProgress.getPrevious()!
       if (scrollYProgress.get() < 0.05) {
-        setVisible(true);
+        setVisible(true)
       } else {
-        setVisible(direction < 0);
+        setVisible(direction < 0)
       }
     }
-  });
+  })
 
   return (
     <AnimatePresence mode="wait">
@@ -53,7 +58,7 @@ const FloatingNav = ({
             key={`link=${idx}`}
             href={navItem.link}
             className={cn(
-              'relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 lg:px-4 md:px-3 sm:px-2 font-bold'
+              ' dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 lg:px-4 md:px-3 sm:px-2 font-bold'
             )}
           >
             <span className="block sm:hidden">{navItem.icon}</span>
@@ -64,7 +69,7 @@ const FloatingNav = ({
         ))}
       </motion.div>
     </AnimatePresence>
-  );
-};
+  )
+}
 
 export default FloatingNav
