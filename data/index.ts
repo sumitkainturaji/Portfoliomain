@@ -189,7 +189,6 @@ export const workExperience = [
   //   thumbnail: '/exp4.svg',
   // },
 ]
-
 export const socialMedia = [
   {
     id: 1,
