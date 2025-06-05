@@ -209,6 +209,6 @@ export const socialMedia = [
   {
     id: 4,
     img: '/insta.svg',
-    link: '',
+    link: 'https://www.instagram.com/sumit__kaintura/',
   },
 ]
