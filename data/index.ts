@@ -105,7 +105,7 @@ export const projects = [
     id: 4,
     title: 'Chat Application',
     des: 'Experience seamless real-time communication with our MERN-based chat app, enhanced by Socket.IO and styled using Daisyui , Tailwind CSS.',
-    img: '/p4.svg',
+    img: '/p4.png',
     iconLists: ['/re.svg',
       '/javascript.svg',
       '/node.svg',
