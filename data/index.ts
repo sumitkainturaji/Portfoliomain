@@ -114,7 +114,7 @@ export const projects = [
                 '/daisy.svg',
                 '/socket.svg',
       '/mon.svg',],
-    link: 'https://github.com/adrianhajdin/iphone',
+    link: 'https://chatapp-6vdf.onrender.com/',
   },
   {
     id: 3,
