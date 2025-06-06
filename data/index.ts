@@ -102,6 +102,21 @@ export const projects = [
     link: 'https://dabhand.onrender.com/',
   },
   {
+    id: 4,
+    title: 'Chat Application',
+    des: 'Experience seamless real-time communication with our MERN-based chat app, enhanced by Socket.IO and styled using Daisyui , Tailwind CSS.',
+    img: '/p4.svg',
+    iconLists: ['/re.svg',
+      '/javascript.svg',
+      '/node.svg',
+      '/express.svg',
+      '/tail.svg',
+                '/daisy.svg',
+                '/socket.svg',
+      '/mon.svg',],
+    link: 'https://github.com/adrianhajdin/iphone',
+  },
+  {
     id: 3,
     title: 'Ecommerece Clothing Store',
     des: 'Step into style with our MERN-based ecommerce clothing store, designed with Tailwind CSS for a sleek, responsive experience.',
@@ -116,14 +131,6 @@ export const projects = [
     ],
     link: 'https://mernstackproject-frontend-jlu9.onrender.com/',
   },
-  // {
-  //   id: 4,
-  //   title: 'Animated Apple Iphone 3D Website',
-  //   des: 'Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..',
-  //   img: '/p4.svg',
-  //   iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/three.svg', '/gsap.svg'],
-  //   link: 'https://github.com/adrianhajdin/iphone',
-  // },
 ]
 
 export const companies = [
